@@ -1,4 +1,4 @@
-package com.tutorial.jetpack.compose.layout
+package com.tutorial.jetpack.compose.layout.firstday
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding

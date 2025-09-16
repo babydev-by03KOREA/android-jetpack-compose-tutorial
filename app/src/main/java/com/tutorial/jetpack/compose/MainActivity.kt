@@ -13,12 +13,13 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.tutorial.jetpack.compose.layout.ButtonAndToastLayout
-import com.tutorial.jetpack.compose.layout.ColumnLayout
-import com.tutorial.jetpack.compose.layout.ImageLayout
-import com.tutorial.jetpack.compose.layout.RememberLayout
-import com.tutorial.jetpack.compose.layout.TextFieldLayout
-import com.tutorial.jetpack.compose.layout.TextLayout
+import com.tutorial.jetpack.compose.layout.firstday.ButtonAndToastLayout
+import com.tutorial.jetpack.compose.layout.firstday.ColumnLayout
+import com.tutorial.jetpack.compose.layout.firstday.ImageLayout
+import com.tutorial.jetpack.compose.layout.firstday.RememberLayout
+import com.tutorial.jetpack.compose.layout.firstday.TextFieldLayout
+import com.tutorial.jetpack.compose.layout.firstday.TextLayout
+import com.tutorial.jetpack.compose.layout.seconday.BusinessCardLayout
 import com.tutorial.jetpack.compose.ui.theme.AndroidJetpackComposeTutorialAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -61,6 +62,8 @@ fun TutorialScreen() {
             TextFieldLayout().TextFieldWidgetWithValue()
             Box(modifier = Modifier.height(20.dp))
             ImageLayout().ImageWidget()
+            Box(modifier = Modifier.height(20.dp))
+            BusinessCardLayout().AsianaBusinessCardWidget()
             Box(modifier = Modifier.height(20.dp))
         }
     }

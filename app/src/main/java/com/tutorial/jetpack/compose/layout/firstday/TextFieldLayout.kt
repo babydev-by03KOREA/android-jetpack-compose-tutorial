@@ -1,4 +1,4 @@
-package com.tutorial.jetpack.compose.layout
+package com.tutorial.jetpack.compose.layout.firstday
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Column
@@ -64,7 +64,7 @@ class TextFieldLayout {
                     textState = it
                 },
                 label = {
-                    Text(text = "ex) MU275")
+                    Text(text = "ex) OZ123")
                 },
                 modifier = Modifier.fillMaxWidth()
             )
