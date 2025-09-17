@@ -58,4 +58,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     // https://mvnrepository.com/artifact/io.coil-kt/coil-compose
     implementation(libs.coil.compose)
+    // https://mvnrepository.com/artifact/com.google.zxing/core
+    implementation(libs.core)
 }
